@@ -3,7 +3,7 @@ import defaultAwesomeFunction, { awesomeFunction } from '../src';
 
 describe('Awesome test.', () => {
   it('should test default awesome function', () => {
-    const expectedVal = 'I am the Default Awesome Function, fellow comrade! - Dinesh';
+    const expectedVal = 'I am the Default Awesome Function, fellow comrade! - AY';
     assert(defaultAwesomeFunction('Dinesh') === expectedVal, 'Default not awesome :(');
   });
 
